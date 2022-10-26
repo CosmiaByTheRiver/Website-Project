@@ -44,6 +44,7 @@ h1 {
     text-align: center;
     padding-bottom: .5em;
     padding-top: .2em;
+    font-size: 250%;
 }
 
 h2 {
@@ -91,5 +92,5 @@ div#top-border.icon-padding {
 
 
 .pb-ears:hover {
-    content:url(/Users/murmurations/Desktop/Website-Project/icons/pb-ears.png)
+    content:url(./icons/pb-ears.png)
 }

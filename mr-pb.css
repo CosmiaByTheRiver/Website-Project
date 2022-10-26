@@ -1,0 +1,194 @@
+/* GENERAL */
+
+body {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Dosis', sans-serif;
+    background-color: #F19CBB;
+}
+
+img {
+    width: 3.0em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #e7b45c;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.9em;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+main {
+    width: 50%;
+    float: left;
+}
+
+/*************************************/
+
+
+/* NAV */
+
+nav {
+    border: black 2px solid;
+    display: flex;
+    justify-content: space-around;
+    background-color: #9DF2D3;
+    font-size: 1.2em;
+}
+
+.top-half {
+    margin-top: 0.4em;
+    font-size: 1.2em;
+}
+
+
+.bottom-half {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#nav-bottom-margin {
+    margin-bottom: 0.4em;
+}
+
+#home-bottom-margin {
+    margin-top: 0.1em;
+}
+
+#home-top-margin {
+    margin-top: 0.5em;
+}
+
+/*************************************/
+
+
+/* BIO */
+
+#bio-wrapper {
+    border: 2px black solid;
+    background-color:#9DF2D3;
+}
+
+#bio-pic {
+    width: 9em;
+    float: left;
+}
+
+
+p {
+    font-size: 1.5em;
+    margin: 0.3em;
+}
+
+/*************************************/
+
+
+/* CREDITS */
+
+#credits {
+    display: table;
+}
+
+#cred-title {
+    display: flex;
+    justify-content: center;
+}
+
+#cred-font {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#work-list {
+    font-size: 1.5em;
+}
+
+.padding {
+    padding-bottom: 0.3em;
+    margin-left: 1em;
+}
+
+span {
+    color:#9DF2D3;
+}
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    #credits {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #credits-body {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    #main-select {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #cred-font {
+        display: flex;
+        justify-content: center;
+        margin-top: 1em;
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 768px) {
+    #work-list {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: .6em;
+        margin-left: 0;
+        padding: 0.2em;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+        margin-top: .2em;
+        margin-bottom: .4em;
+    }
+}
+
+@media (max-width: 768px) {
+    #bio-text {
+        margin: 0 auto;
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 529px) {
+    .query-font {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 375px) {
+    .query-font {
+        font-size: 0.7em;
+    }
+}
